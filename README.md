@@ -1,6 +1,6 @@
 # Celoka-hotel_system_client
 
-# Post-It
+# Hotel Search
 
 This is the client side of the `Hotel search` application. 
 
