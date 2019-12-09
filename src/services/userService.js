@@ -1,7 +1,7 @@
 import { authHeader } from '../helpers/auth-header';
 import toastr from 'toastr';
 
-const baseUrl = "https://hotel-system-app.herokuapp.com/api/v1/"
+const baseUrl = process.env.REACT_APP_API_BASE_URL
 
 export const userService = {
     register,
