@@ -1,7 +1,7 @@
 import { authHeader } from '../helpers/auth-header';
 import toastr from 'toastr';
 
-const baseUrl = "http://localhost:8000/api/v1/"
+const baseUrl = "https://hotel-system-app.herokuapp.com/api/v1/"
 
 export const userService = {
     register,
