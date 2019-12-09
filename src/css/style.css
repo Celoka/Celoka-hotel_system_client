@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #ece5de;
+    line-height: 1.6;
+
+}
+/* Style for Landing */
+#showcase{
+    background-image: url('../img/hotel2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #c8c3bf;
+    border: #866d28 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+#showcase .button:hover{
+    background: #926239;
+    color: azure;
+}
+
+/* Style for Authentication(Sign Up and Sign In) pages */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: azure;
+}
+
+.logo {
+    color: #cc7c37;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-right: 500px;
+
+}
+
+nav ul  {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul .links {
+    color: #694f39;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.auth{
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 300px;
+    margin: auto;
+    margin-top: 120px;
+    height: 400px;
+}
+.transparent{
+    background: transparent;
+}
+
+form{
+    width: 240px;
+    text-align: center;
+}
+
+input{
+    width: 200px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 11px 0;
+    margin-right: 20px;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+
+.transparent ::placeholder {
+    color: aliceblue;
+    opacity: 0.5;
+}
+
+.links{
+    color: #5a4839;
+    text-decoration: none;
+}
+
+.auth form h2{
+    margin-right: 20px;
+}
+
+/* Style for Search Box */
+.search-box{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#not-found{
+    color: black;
+    text-align: center;
+    align-items: center;
+}
