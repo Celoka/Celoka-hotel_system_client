@@ -1,10 +1,10 @@
 import React from 'react';
-import { SideNavBar } from './SideNavBar';
+import { NavBar } from './NavBar';
 import Map from './Map';
 
 const SearchBar = () => (
     <div className="search-box">
-        <SideNavBar />
+        <NavBar />
         <Map />
     </div>
 )

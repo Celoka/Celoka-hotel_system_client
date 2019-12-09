@@ -6,10 +6,8 @@ import { connect } from 'react-redux';
 import { userActions } from '../../redux/actions/userActions';
 
 
-class SideNavBar extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+class NavBar extends React.Component {
+
     logout(event) {
         event.preventDefault();
         this.props.logout();
@@ -44,5 +42,5 @@ const mapDispatchToProps = {
     logout: userActions.logout
 };
 
-const connectedComponent = connect(mapStateToProps, mapDispatchToProps)(SideNavBar);
-export { connectedComponent as SideNavBar };
+const connectedComponent = connect(mapStateToProps, mapDispatchToProps)(NavBar);
+export { connectedComponent as NavBar };
